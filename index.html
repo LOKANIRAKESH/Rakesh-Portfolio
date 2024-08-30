@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scalar=1.0">
+        <title>Rakesh Lokani Portfolio</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/0edc1841a3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="home">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, I am <span>Rakesh Lokani </span><br>From Suryapet</h1>
+                </div>
+            </div>
+        </div>
+        <div id="about">
+            <div class="container">
+             <div class="row">
+                <div class="column1">
+                </div>
+                    <div class="column2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>As a highly motivated and detail-oriented recent graduate with a solid foundation in Java and Spring Boot, I am eager to launch my career as a Java developer. I have hands-on experience with object-oriented programming, building RESTful APIs, and implementing backend logic using Spring Boot. I am keen to apply my skills in a dynamic and growth-oriented environment where I can contribute to impactful software solutions while continuously learning and evolving in the field of software development</p>
+                        <div class="tab-titles">
+                            <p class="tab-links"><span style="color:aqua;">Skills:</span><br><span>Java Developer -</span><br>Design, code, and deploy development projects in the Java language.<br><span>Full Stack Developer -</span><br>Build both the front end and the back end of a website.<br><span>Technical Skills -</span><br>Java, Spring Boot, Spring JPA, MYSQL, HTML, CSS, JavaScript.</p>
+                            <p class="tab-links"><span style="color: aqua;">Education:</span><br><span>2023</span><br> CMR COLLEGE OF ENGINEERING AND TECHNOLOGY.<br>C.G.P.A - 7.07<br><span>2019</span><br>Royal  Junior College Sr nagar.<br>Percentage - 80%.<br><span>2017</span><br>10th from Sri Chaitanya Techno School<br>CGPA - 8.2 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div id="contact">
+            <div class="contact-left">
+                <h5 class="sub-title">Contact Me</h5>
+                <p><i class="fa-solid fa-paper-plane"></i>lokanirakesh9912@gmail.com</p>
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/rakesh-lokani-272303238"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact_right">
+                <form name="contact_form">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="portfolio-website">
+            <p>Portfolio website @ Rakesh Lokani <i class="fa-solid fa-address-card"></i></p>
+        </div>
+    </body>
+</html>
